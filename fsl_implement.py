@@ -74,6 +74,6 @@ def predict_image(image_path):
     return label_map[predicted_class]
 
 # Example: Classify a new image
-test_img_path = r"D:\Gitesh\New folder\!Normal & Abnormal Model\testing purpose images\Normal Maternal Cervix\Patient00248_Plane4_1_of_1.png"
+test_img_path = r"sample_image"
 predicted_label = predict_image(test_img_path)
 print(f"Predicted Label: {predicted_label}")
